@@ -25,14 +25,10 @@ const unidades = [
       "Espaços terapêuticos"
     ],
     fotos: [
-      "unidades/aparecida-de-goiania-goias/masculina/1/area-lazer.webp",
       "unidades/aparecida-de-goiania-goias/masculina/1/acomodacoes.webp",
-      "unidades/aparecida-de-goiania-goias/masculina/1/cozinha.webp",
-      "unidades/aparecida-de-goiania-goias/masculina/1/enfermaria.webp",
-      "unidades/aparecida-de-goiania-goias/masculina/1/terapias-interacao.webp",
-      "unidades/aparecida-de-goiania-goias/masculina/1/reunioes.webp",
-      "unidades/aparecida-de-goiania-goias/masculina/1/escritorio-real.webp",
-      "unidades/aparecida-de-goiania-goias/masculina/1/area-verde-real.webp"
+      "unidades/aparecida-de-goiania-goias/masculina/1/unnamed.webp",
+      "unidades/aparecida-de-goiania-goias/masculina/1/unnamed (1).webp",
+      "unidades/aparecida-de-goiania-goias/masculina/1/unnamed (2).webp"
     ]
   },
   {
@@ -49,30 +45,11 @@ const unidades = [
       "Apoio no encaminhamento"
     ],
     fotos: [
-      "unidades/aparecida-de-goiania-goias/masculina/2/img-20260310-wa0214.jpg",
-      "unidades/aparecida-de-goiania-goias/masculina/2/img-20260310-wa0216.jpg",
-      "unidades/aparecida-de-goiania-goias/masculina/2/img-20260310-wa0218.jpg",
-      "unidades/aparecida-de-goiania-goias/masculina/2/img-20260310-wa0219.jpg"
-    ]
-  },
-  {
-    id: "caturai-go-feminina-1",
-    cidade: "Caturaí",
-    estado: "GO",
-    modalidade: "Feminina",
-    descricao:
-      "Unidade parceira feminina com ambiente acolhedor e encaminhamento conforme disponibilidade e perfil do caso.",
-    recursos: [
-      "Atendimento feminino",
-      "Ambiente reservado",
-      "Apoio à família",
-      "Encaminhamento responsável"
-    ],
-    fotos: [
-      "unidades/caturai-goias/feminina/1/img-20251226-wa0161.jpg",
-      "unidades/caturai-goias/feminina/1/img-20251226-wa0163.jpg",
-      "unidades/caturai-goias/feminina/1/img-20251226-wa0165.jpg",
-      "unidades/caturai-goias/feminina/1/img-20251226-wa0171.jpg"
+      "unidades/aparecida-de-goiania-goias/masculina/2/unnamed.webp",
+      "unidades/aparecida-de-goiania-goias/masculina/2/unnamed (1).webp",
+      "unidades/aparecida-de-goiania-goias/masculina/2/unnamed (2).webp",
+      "unidades/aparecida-de-goiania-goias/masculina/2/unnamed (3).webp",
+      "unidades/aparecida-de-goiania-goias/masculina/2/unnamed (4).webp"
     ]
   },
   {
@@ -90,9 +67,7 @@ const unidades = [
     ],
     fotos: [
       "unidades/goiania-goias/feminina/1/img-20251204-wa0044.jpg",
-      "unidades/goiania-goias/feminina/1/img-20251204-wa0045.jpg",
-      "unidades/goiania-goias/feminina/1/vid-20251204-wa0052.mp4",
-      "unidades/goiania-goias/feminina/1/vid-20251204-wa0056.mp4"
+      "unidades/goiania-goias/feminina/1/unnamed (5).webp"
     ]
   },
   {
@@ -109,10 +84,10 @@ const unidades = [
       "Encaminhamento responsável"
     ],
     fotos: [
-      "unidades/goiania-goias/masculina/1/img-20251130-wa0054-1.jpg",
-      "unidades/goiania-goias/masculina/1/img-20251130-wa0055-1.jpg",
-      "unidades/goiania-goias/masculina/1/img-20251130-wa0057-1.jpg",
-      "unidades/goiania-goias/masculina/1/img-20251130-wa0059-1.jpg"
+      "unidades/goiania-goias/masculina/1/unnamed.webp",
+      "unidades/goiania-goias/masculina/1/unnamed (1).webp",
+      "unidades/goiania-goias/masculina/1/unnamed (2).webp",
+      "unidades/goiania-goias/masculina/1/unnamed (3).webp"
     ]
   },
   {
@@ -129,10 +104,28 @@ const unidades = [
       "Apoio no encaminhamento"
     ],
     fotos: [
-      "unidades/senador-canedo-goias/feminina/1/img-20260604-wa0169.jpg",
-      "unidades/senador-canedo-goias/feminina/1/img-20260604-wa0171.jpg",
-      "unidades/senador-canedo-goias/feminina/1/img-20260604-wa0174.jpg",
-      "unidades/senador-canedo-goias/feminina/1/img-20260604-wa0175.jpg"
+      "unidades/senador-canedo-goias/feminina/1/unnamed.webp",
+      "unidades/senador-canedo-goias/feminina/1/unnamed (1).webp",
+      "unidades/senador-canedo-goias/feminina/1/unnamed (4).webp"
+    ]
+  },
+  {
+    id: "senador-canedo-go-feminina-2",
+    cidade: "Senador Canedo",
+    estado: "GO",
+    modalidade: "Feminina",
+    descricao:
+      "Segunda unidade parceira feminina em Senador Canedo, com ambiente reservado e orientação para encaminhamento responsável.",
+    recursos: [
+      "Atendimento feminino",
+      "Ambiente reservado",
+      "Equipe preparada",
+      "Apoio no encaminhamento"
+    ],
+    fotos: [
+      "unidades/senador-canedo-goias/feminina/2/unnamed.webp",
+      "unidades/senador-canedo-goias/feminina/2/unnamed (1).webp",
+      "unidades/senador-canedo-goias/feminina/2/unnamed (2).webp"
     ]
   }
 ];
