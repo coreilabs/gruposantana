@@ -211,8 +211,8 @@ h3 {
 .btn-primary,
 .header-cta,
 .floating-whatsapp {
-  color: #0a3020;
-  background: var(--brand);
+  color: var(--white);
+  background: #fc4200;
   box-shadow: 0 18px 34px rgba(252, 66, 0, 0.22);
 }
 
