@@ -1,18 +1,18 @@
 :root {
-  --blue: #0086e6;
-  --cyan: #32cbfd;
-  --green: #75b800;
-  --lime: #d2f200;
-  --navy: #071b2e;
-  --ink: #10253b;
-  --muted: #5f7184;
-  --line: #d9ebf6;
-  --soft: #f4fbff;
+  --blue: #fc4200;
+  --cyan: #fe8e01;
+  --green: #41b93d;
+  --lime: #038630;
+  --navy: #0a3020;
+  --ink: #18362a;
+  --muted: #5d7065;
+  --line: #d9eadc;
+  --soft: #f5fbf5;
   --white: #ffffff;
-  --brand: linear-gradient(135deg, #0086e6 0%, #32cbfd 48%, #75b800 100%);
-  --brand-dark: linear-gradient(135deg, #061a30 0%, #073f71 56%, #3b6100 100%);
-  --lime-grad: linear-gradient(135deg, #75b800 0%, #d2f200 100%);
-  --shadow: 0 22px 54px rgba(0, 87, 150, 0.16);
+  --brand: linear-gradient(135deg, #fc4200 0%, #fe8e01 36%, #41b93d 68%, #038630 100%);
+  --brand-dark: linear-gradient(135deg, #0a3020 0%, #038630 100%);
+  --lime-grad: linear-gradient(135deg, #fc4200 0%, #fe8e01 100%);
+  --shadow: 0 22px 54px rgba(3, 134, 48, 0.15);
   --radius: 8px;
   --header: 86px;
 }
@@ -33,7 +33,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background: #f7fcff;
+  background: #f7fbf7;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -111,12 +111,12 @@ h3 {
   background: rgba(255, 255, 255, 0.9);
   border-top: 4px solid transparent;
   border-image: var(--brand) 1;
-  border-bottom: 1px solid rgba(50, 203, 253, 0.22);
+  border-bottom: 1px solid rgba(254, 142, 1, 0.24);
   backdrop-filter: blur(16px);
 }
 
 .site-header.is-scrolled {
-  box-shadow: 0 12px 34px rgba(0, 87, 150, 0.13);
+  box-shadow: 0 12px 34px rgba(3, 134, 48, 0.13);
 }
 
 .header-shell {
@@ -132,7 +132,7 @@ h3 {
 
 .brand img {
   width: auto;
-  height: 58px;
+  height: 48px;
 }
 
 .site-nav {
@@ -160,7 +160,7 @@ h3 {
 
 .site-nav a:hover,
 .site-nav a:focus-visible {
-  background: #eaf8ff;
+  background: #fff1ea;
   color: var(--blue);
 }
 
@@ -171,7 +171,7 @@ h3 {
   align-items: center;
   justify-content: center;
   color: var(--blue);
-  background: #eaf8ff;
+  background: #fff1ea;
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
@@ -211,16 +211,16 @@ h3 {
 .btn-primary,
 .header-cta,
 .floating-whatsapp {
-  color: #061a30;
+  color: #0a3020;
   background: var(--brand);
-  box-shadow: 0 18px 34px rgba(0, 134, 230, 0.24);
+  box-shadow: 0 18px 34px rgba(252, 66, 0, 0.22);
 }
 
 .btn-secondary {
   color: var(--blue);
   background: var(--white);
   border-color: var(--line);
-  box-shadow: 0 12px 28px rgba(0, 87, 150, 0.12);
+  box-shadow: 0 12px 28px rgba(3, 134, 48, 0.12);
 }
 
 .btn-ghost {
@@ -286,8 +286,8 @@ h3 {
 .hero::after {
   z-index: -1;
   background:
-    radial-gradient(circle at 78% 20%, rgba(210, 242, 0, 0.28), transparent 28%),
-    linear-gradient(105deg, rgba(7, 27, 46, 0.96) 0%, rgba(0, 134, 230, 0.72) 52%, rgba(59, 97, 0, 0.62) 100%);
+    radial-gradient(circle at 78% 20%, rgba(254, 142, 1, 0.28), transparent 28%),
+    linear-gradient(105deg, rgba(10, 48, 32, 0.96) 0%, rgba(3, 134, 48, 0.74) 52%, rgba(252, 66, 0, 0.64) 100%);
 }
 
 .hero-grid {
@@ -304,7 +304,7 @@ h3 {
 .family-copy .section-kicker,
 .alert-grid .section-kicker,
 .contact-grid .section-kicker {
-  color: var(--lime);
+  color: var(--cyan);
 }
 
 .hero-copy p {
@@ -330,7 +330,7 @@ h3 {
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(255, 255, 255, 0.62);
   border-radius: var(--radius);
-  box-shadow: 0 28px 70px rgba(0, 30, 58, 0.26);
+  box-shadow: 0 28px 70px rgba(10, 48, 32, 0.26);
   backdrop-filter: blur(18px);
 }
 
@@ -344,9 +344,9 @@ h3 {
   align-items: center;
   gap: 8px;
   padding: 8px 11px;
-  color: #416300;
-  background: #f1ffd8;
-  border: 1px solid #d2f200;
+  color: #026b26;
+  background: #effaef;
+  border: 1px solid #41b93d;
   border-radius: 999px;
   font-size: 13px;
   font-weight: 950;
@@ -357,7 +357,7 @@ h3 {
   height: 9px;
   background: var(--green);
   border-radius: 50%;
-  box-shadow: 0 0 0 5px rgba(117, 184, 0, 0.16);
+  box-shadow: 0 0 0 5px rgba(65, 185, 61, 0.16);
 }
 
 .triage-card dl {
@@ -369,7 +369,7 @@ h3 {
 
 .triage-card dl div {
   padding: 13px;
-  background: linear-gradient(135deg, #f7fcff 0%, #f2ffd9 100%);
+  background: linear-gradient(135deg, #fff8f3 0%, #f0faef 100%);
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
@@ -392,8 +392,8 @@ h3 {
 
 .orientation-section {
   background:
-    linear-gradient(90deg, rgba(0, 134, 230, 0.045) 1px, transparent 1px),
-    linear-gradient(180deg, #ffffff 0%, #f3fbff 100%);
+    linear-gradient(90deg, rgba(252, 66, 0, 0.045) 1px, transparent 1px),
+    linear-gradient(180deg, #ffffff 0%, #f5fbf5 100%);
   background-size: 58px 58px, auto;
 }
 
@@ -434,7 +434,7 @@ h3 {
 .signal-board svg {
   width: 30px;
   height: 30px;
-  color: var(--lime);
+  color: var(--cyan);
 }
 
 .signal-board strong {
@@ -447,9 +447,9 @@ h3 {
 
 .units-lab {
   background:
-    radial-gradient(circle at 12% 8%, rgba(50, 203, 253, 0.22), transparent 30%),
-    radial-gradient(circle at 88% 10%, rgba(210, 242, 0, 0.22), transparent 30%),
-    linear-gradient(180deg, #eefaff 0%, #ffffff 55%, #f6ffe7 100%);
+    radial-gradient(circle at 12% 8%, rgba(254, 142, 1, 0.20), transparent 30%),
+    radial-gradient(circle at 88% 10%, rgba(65, 185, 61, 0.20), transparent 30%),
+    linear-gradient(180deg, #fff7f1 0%, #ffffff 55%, #f1faef 100%);
 }
 
 .lab-header {
@@ -479,9 +479,9 @@ h3 {
   margin-bottom: 22px;
   padding: 16px;
   background: var(--white);
-  border: 1px solid rgba(0, 134, 230, 0.16);
+  border: 1px solid rgba(252, 66, 0, 0.16);
   border-radius: var(--radius);
-  box-shadow: 0 18px 44px rgba(0, 134, 230, 0.12);
+  box-shadow: 0 18px 44px rgba(3, 134, 48, 0.12);
 }
 
 .filter-count {
@@ -528,7 +528,7 @@ h3 {
   justify-content: center;
   gap: 9px;
   color: var(--blue);
-  background: #f4fbff;
+  background: #fff4ee;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   font-weight: 950;
@@ -569,7 +569,7 @@ h3 {
   contain: paint;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background: linear-gradient(135deg, rgba(0, 134, 230, 0.12), rgba(117, 184, 0, 0.12)), #eaf8ff;
+  background: linear-gradient(135deg, rgba(252, 66, 0, 0.12), rgba(65, 185, 61, 0.12)), #f3faf2;
 }
 
 .unit-carousel .swiper-wrapper,
@@ -620,7 +620,7 @@ h3 {
   gap: 6px;
   padding: 7px 10px;
   color: var(--blue);
-  background: #eaf8ff;
+  background: #fff1ea;
   border-radius: var(--radius);
   font-size: 13px;
   font-weight: 950;
@@ -632,8 +632,8 @@ h3 {
 }
 
 .tag.accent {
-  color: #416300;
-  background: #f1ffd8;
+  color: #026b26;
+  background: #effaef;
 }
 
 .unit-body p {
@@ -651,7 +651,7 @@ h3 {
 
 .resource-list li {
   padding: 7px 10px;
-  background: #f7fcff;
+  background: #f7fbf7;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   color: var(--ink);
@@ -673,7 +673,7 @@ h3 {
   align-items: center;
   justify-content: center;
   color: var(--white);
-  background: rgba(7, 27, 46, 0.72);
+  background: rgba(10, 48, 32, 0.76);
   border: 1px solid rgba(255, 255, 255, 0.42);
   border-radius: 50%;
   transform: translateY(-50%);
@@ -764,7 +764,7 @@ h3 {
 }
 
 .family-list svg {
-  color: var(--lime);
+  color: var(--cyan);
 }
 
 .alert-grid ul {
@@ -808,7 +808,7 @@ h3 {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  box-shadow: 0 10px 28px rgba(0, 87, 150, 0.08);
+  box-shadow: 0 10px 28px rgba(3, 134, 48, 0.08);
 }
 
 .faq-item button {
@@ -849,8 +849,8 @@ h3 {
 
 .contact-section {
   background:
-    radial-gradient(circle at 12% 8%, rgba(50, 203, 253, 0.18), transparent 30%),
-    linear-gradient(135deg, #061a30 0%, #073f71 100%);
+    radial-gradient(circle at 12% 8%, rgba(254, 142, 1, 0.20), transparent 30%),
+    linear-gradient(135deg, #0a3020 0%, #038630 100%);
 }
 
 .contact-form {
@@ -860,7 +860,7 @@ h3 {
   background: var(--white);
   border: 1px solid rgba(255, 255, 255, 0.64);
   border-radius: var(--radius);
-  box-shadow: 0 26px 60px rgba(0, 30, 58, 0.25);
+  box-shadow: 0 26px 60px rgba(10, 48, 32, 0.25);
 }
 
 .form-row {
@@ -880,7 +880,7 @@ h3 {
 .site-footer {
   padding: 44px 0 96px;
   color: rgba(255, 255, 255, 0.82);
-  background: #061a30;
+  background: #0a3020;
 }
 
 .site-footer img {
@@ -968,7 +968,7 @@ h3 {
   }
 
   .brand img {
-    height: 66px;
+    height: 52px;
   }
 
   .site-nav {
@@ -1064,7 +1064,7 @@ h3 {
   }
 
   .brand img {
-    height: 56px;
+    height: 46px;
   }
 
   .site-nav a {
