@@ -27,7 +27,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 108px;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body.nav-open {
@@ -113,6 +113,10 @@ h3 {
   border-image: var(--brand) 1;
   border-bottom: 1px solid rgba(254, 142, 1, 0.24);
   backdrop-filter: blur(16px);
+}
+
+.hero-mobile-logo {
+  display: none;
 }
 
 .site-header.is-scrolled {
@@ -1098,12 +1102,25 @@ textarea {
 }
 
 @media (max-width: 819px) {
+  .site-header {
+    position: sticky;
+    top: 0;
+  }
+
   h1 {
     font-size: 42px;
   }
 
   .hero {
-    padding: 72px 0 88px;
+    padding: 40px 0 88px;
+  }
+
+  .hero-mobile-logo {
+    width: min(250px, 70vw);
+    height: auto;
+    display: block;
+    justify-self: center;
+    margin: 0 auto 8px;
   }
 
   .triage-card img {
