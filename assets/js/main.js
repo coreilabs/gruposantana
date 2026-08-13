@@ -463,14 +463,12 @@ function inicializarMenuMobile() {
     const aberto = botao.getAttribute("aria-expanded") === "true";
     botao.setAttribute("aria-expanded", String(!aberto));
     menu.classList.toggle("is-open", !aberto);
-    document.body.classList.toggle("nav-open", !aberto);
   });
 
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       botao.setAttribute("aria-expanded", "false");
       menu.classList.remove("is-open");
-      document.body.classList.remove("nav-open");
     });
   });
 
